@@ -2,20 +2,32 @@ html, body {
     height: 100%;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
+
+.header,
+.main,
+.footer {
+    background-color: #1f2937;
+}
+
+#second-text, .links a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* HEADER */
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 32px 5px 32px;
-    background-color: rgba(255, 166, 0, 0.89);
-    
+    padding: 10px 32px;
 }
 
 .logo img {
     padding: 2px;
-    width: 40px;
+    width: 50px;
     background-color: gray;
     border-radius: 50%;
     border: 5px solid black;
@@ -32,22 +44,66 @@ html, body {
 
 .links a {
     text-decoration: none;
-    color: black;
     font-weight: 500;
-    padding: 25px;
+    padding: 10px;
     transition: all .3s ease;
 }
 
 .links a:hover {
-    color: rgb(49, 168, 168);
-    background-color: white;
-    border-radius: 100px;
+    color: black;
 }
+
+/* MAIN */
 
 .main {
     display: flex;
     justify-content: center;
-    background-color: #D4F1F9;
+    align-items: center;
+    padding: 64px 0;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#main-text {
+    font-family: "FreeMono", monospace;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    max-width: 70%;
+    margin: 0;
+}
+
+#second-text {
+    max-width: 400px;
+}
+
+#main-button {
+    color: #fff;
+    background-color: #3882F6;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 35px;
+    transition: background-color .3s ease;
+}
+
+#main-button:hover {
+    background-color: #2f528b;
+}
+
+.img img {
+    width: 400px;
+    height: auto;
+    border-radius: 50px;
+    border: 2px solid black;
 }
 
 #info-title, .info-conteiner {
@@ -68,6 +124,7 @@ html, body {
 .info-items img {
     width: 150px;
     height: 150px;
+    border-radius: 70%;
 }
 
 .quote {
@@ -94,5 +151,4 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 166, 0, 0.89);
 }
