@@ -162,23 +162,29 @@ h2 {
 
 .quote {
     background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
     color: #1f2937;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 52px;
     padding: 52px;
+    height: 200px;
 }
 
 .author {
     display: flex;
     flex-direction: row-reverse;
     font-style: normal;
-    color: rgb(77, 65, 65);
+    font-weight: bold;
     font-size: 20px;
+    color: black;
+    margin-top: 10px;
 }
+
+/* SIGN UP */
 
 .signup-conteiner {
     display: flex;
@@ -186,7 +192,10 @@ h2 {
     align-items: center;
     gap: 40px;
     margin-bottom: 52px;
+    height: 200px;
 }
+
+/* FOOTER */
 
 .footer {
     display: flex;
