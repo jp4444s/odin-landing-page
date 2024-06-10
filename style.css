@@ -187,12 +187,52 @@ h2 {
 /* SIGN UP */
 
 .signup-conteiner {
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    margin-bottom: 52px;
     height: 200px;
+}
+
+.signup {
+    color: #fff;
+    background-color: #3882F6;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 2rem 0;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.signup h3 {
+    font-weight: 900;
+    margin: 0;
+}
+
+.signup p {
+    margin: 0;
+    color: #ddd;
+}
+
+#cta-button {
+    color: #fff;
+    background-color: #3882F6;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 0.7rem 2.3rem;
+}
+
+#cta-button:hover {
+    color: black;
+    background-color: #fff;
+
 }
 
 /* FOOTER */
@@ -200,5 +240,6 @@ h2 {
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 2rem;
+    color: #ccc;
 }
