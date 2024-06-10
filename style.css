@@ -20,9 +20,9 @@ html, body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px 32px;
+    padding: 1.5rem 0;
 }
 
 .logo img {
@@ -59,7 +59,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 64px 0;
+    padding: 70px 0rem 5rem;
 }
 
 .main-info {
@@ -161,6 +161,7 @@ h2 {
 /* QUOTE */
 
 .quote {
+    font-family: "Times New Roman", Times, serif;
     background-color: #E5E7EB;
     color: #1f2937;
     font-size: 30px;
